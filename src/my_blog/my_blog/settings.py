@@ -120,3 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+# To use static files for the whole project my_blog (in src)
+
+STATICFILES_DIRS =[
+    os.path.join(BASE_DIR, "static"),
+    'src\my_blog\static',
+]
