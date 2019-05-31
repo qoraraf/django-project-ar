@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # To use static files for the whole project my_blog (in src)
 
-STATICFILES_DIRS =[
+""" STATICFILES_DIRS =[
     os.path.join(BASE_DIR, "static"),
     'src\my_blog\static',
-]
+] """
